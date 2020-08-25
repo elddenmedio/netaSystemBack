@@ -26,10 +26,8 @@ public class CustomerBuilder extends AbstractDTOBuilder {
 		localDTO.setName(localEntity.getName());
 		localDTO.setSurname(localEntity.getSurname());
 		localDTO.setSecondsurname(localEntity.getSecondsurname());
-		localDTO.setMail(localEntity.getMail());
 		localDTO.setActive(localEntity.getActive());
 		localDTO.setDeleted(localEntity.getDeleted());
-		//localDTO.setCustomer_info(localEntity.getCustomer_info());
 
 		return localDTO;
 	}

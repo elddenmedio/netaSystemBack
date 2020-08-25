@@ -9,24 +9,34 @@ This project need to update/install maven dependencies project.
 # Deploy
 
 You need to use payara or glasfich server as application.
+
 You need to add JDBC Connection to Postgres.
+![picture](pictures/neta8.png)
+![picture](pictures/neta9.1.png)
+
 You need to add JDBC Resources to link the new connection to webapp.
+![picture](pictures/neta9.png)
+
 This project dont need properties.
 You need to add application web app.
+![picture](pictures/neta7.png)
 
+You need to compile the project with this command  `mvn clean package -DskipTests`, this will generate the war project back
 The final url_endpoint_api is: http://localhost:8080/neta-endpoint-web/services/v1/account/
 
 If you want to see all the endpoints available you can see here
 
+![picture](pictures/neta6.png)
+
 # Connect to DB
 
 This project use :
-
-you need to compile the project with this command  `mvn clean package -DskipTests`, this will generate the war project back
+Postgres
+![picture](pictures/neta11.png)
 
 # DataBase
-
 Create new DB server called `neta` and then create their tables as:
+![picture](pictures/neta12.png)
 
 CREATE TABLE IF NOT EXISTS public.customer (
   id SERIAL PRIMARY KEY,

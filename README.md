@@ -18,6 +18,8 @@ The final url_endpoint_api is: http://localhost:8080/neta-endpoint-web/services/
 
 If you want to see all the endpoints available you can see here
 
+![picture](pictures/neta6.png)
+
 # Connect to DB
 
 This project use :
